@@ -1,0 +1,22 @@
+{
+	"name": "examplebot",
+	"version": "JS.2.0.6",
+	"description": "A simple, easily extendable bot for your needs!",
+	"main": "index.js",
+	"keywords": [],
+	"author": "Linus Potocnik",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.7.2",
+		"discord.js": "^14.15.3",
+		"dotenv": "^16.4.5",
+		"mysql2": "^3.11.0",
+		"net": "^1.0.2",
+		"path": "^0.12.7"
+	},
+	"imports": {
+		"#events/*": "./events/*",
+		"#commands/*": "./events/commands/*.js"
+	},
+	"type": "module"
+}
